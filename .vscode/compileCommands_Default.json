@@ -1,0 +1,42 @@
+[
+	{
+		"file": "D:\\Unreal Projects\\ObstacleRace\\Source\\ObstacleRace\\M.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Unreal Projects\\ObstacleRace\\.vscode\\compileCommands_Default\\ObstacleRace.261.rsp"
+		],
+		"directory": "E:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\ObstacleRace\\Source\\ObstacleRace\\M.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Unreal Projects\\ObstacleRace\\.vscode\\compileCommands_Default\\ObstacleRace.261.rsp"
+		],
+		"directory": "E:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\ObstacleRace\\Source\\ObstacleRace\\ObstacleRace.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Unreal Projects\\ObstacleRace\\.vscode\\compileCommands_Default\\ObstacleRace.261.rsp"
+		],
+		"directory": "E:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\ObstacleRace\\Source\\ObstacleRace\\ObstacleRace.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Unreal Projects\\ObstacleRace\\.vscode\\compileCommands_Default\\ObstacleRace.261.rsp"
+		],
+		"directory": "E:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\ObstacleRace\\Source\\ObstacleRace\\ObstacleRace.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Unreal Projects\\ObstacleRace\\.vscode\\compileCommands_Default\\ObstacleRace.261.rsp"
+		],
+		"directory": "E:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	}
+]

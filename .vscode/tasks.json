@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "ObstacleRace Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRace",
+				"Win64",
+				"Debug",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRace",
+				"Win64",
+				"Debug",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleRace Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleRace",
+				"Win64",
+				"Debug",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRace",
+				"Win64",
+				"DebugGame",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRace",
+				"Win64",
+				"DebugGame",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleRace Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleRace",
+				"Win64",
+				"DebugGame",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRace",
+				"Win64",
+				"Development",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRace",
+				"Win64",
+				"Development",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleRace Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleRace",
+				"Win64",
+				"Development",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRace",
+				"Win64",
+				"Test",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRace",
+				"Win64",
+				"Test",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleRace Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleRace",
+				"Win64",
+				"Test",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRace",
+				"Win64",
+				"Shipping",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRace",
+				"Win64",
+				"Shipping",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleRace Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleRace",
+				"Win64",
+				"Shipping",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRace",
+				"IOS",
+				"Debug",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRace",
+				"IOS",
+				"Debug",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleRace IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleRace",
+				"IOS",
+				"Debug",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRace",
+				"IOS",
+				"DebugGame",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRace",
+				"IOS",
+				"DebugGame",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleRace IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleRace",
+				"IOS",
+				"DebugGame",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRace",
+				"IOS",
+				"Development",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRace",
+				"IOS",
+				"Development",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleRace IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleRace",
+				"IOS",
+				"Development",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRace",
+				"IOS",
+				"Test",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRace",
+				"IOS",
+				"Test",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleRace IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleRace",
+				"IOS",
+				"Test",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRace",
+				"IOS",
+				"Shipping",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRace",
+				"IOS",
+				"Shipping",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleRace IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRace IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleRace",
+				"IOS",
+				"Shipping",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRaceEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRaceEditor",
+				"Win64",
+				"Debug",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRaceEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRaceEditor",
+				"Win64",
+				"Debug",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleRaceEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRaceEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleRaceEditor",
+				"Win64",
+				"Debug",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRaceEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRaceEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRaceEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRaceEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleRaceEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRaceEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleRaceEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRaceEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRaceEditor",
+				"Win64",
+				"Development",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRaceEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleRaceEditor",
+				"Win64",
+				"Development",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleRaceEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ObstacleRaceEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleRaceEditor",
+				"Win64",
+				"Development",
+				"D:\\Unreal Projects\\ObstacleRace\\ObstacleRace.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		}
+	]
+}
